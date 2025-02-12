@@ -1,0 +1,121 @@
+header div {
+    display:flex;
+   align-items: center;
+    cursor: pointer;
+    position: relative;
+    font-size: medium;
+} 
+i {
+  font-size: 30px;
+  color: aliceblue;
+  margin-left: 60px;
+}
+b {
+  font-size: 20px;
+  color: aliceblue;
+  margin-left:10px ;
+}
+.topics ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: aliceblue;
+    font-size: medium;
+    margin-left: 15%;
+        
+    }
+    .topics ul li:hover{
+      text-decoration: underline;
+    }
+    .login {
+        padding: 20px 10px;
+        margin-left: 40%;
+       border-radius: 30px;
+        justify-content: flex-end;  
+
+        }
+        .login button:hover{
+          color: blue;
+          cursor: pointer;
+        }
+        .text p  {
+          color: rgb(238, 243, 243);
+          margin-left: 11%;
+          margin-top: 15%;
+          align-items: first baseline;
+          font-size: 50px;
+          font-weight: 900;
+          line-height: 45px;
+          color: white;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .p {
+        color: #e3e3e3;
+          padding-left: 140px;
+          font-size: x-large;
+          margin-top: 1cm;
+                    
+        }
+        body {
+          background-color: rgb(41, 41, 210);
+        }
+        .login button {
+          border-style: none;
+          width: 55px;
+          height: 40px;
+          border-radius: 50px;
+          text-transform: capitalize;
+          font-weight: 700;
+          
+        }
+        .Download-browser{
+          display: flex;
+          justify-content: center;
+          gap: 5px;
+        
+        }
+        .Download-browser .Download {
+          height: 50px;
+          border-radius: 40px;
+          border-style: none;
+          width: 300px;
+          color:black;
+        }
+        .Download-browser .browser {
+          height: 50px;
+          border-radius: 40px;
+          border-style: none;
+          width: 350px;
+          background-color: blue;
+          color: aliceblue;
+        }
+        .Download-browser .Download:hover{
+          cursor: pointer;
+          color: blue;
+        }
+        .Download-browser .browser:hover{
+          cursor: pointer;
+        }
+        .overflow p {
+          background-color: rgb(41, 16, 233);
+          border-radius: 60px;
+          height: 500px;
+          width: 90%;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          border-style: double;
+          margin-top: -20px;
+          color: white;
+          overflow: visible;
+          border: 5px solid rgba(21, 14, 14, 0.263);
+          font-size: larger;
+          
+      
+
+        }
+        .overflow {
+          display: flex;
+          justify-content: center;
+          
+        }
